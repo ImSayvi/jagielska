@@ -1,5 +1,8 @@
  import React from "react";
  import BannerImg from "../../assets/about.jpg";
+import { LiaCameraRetroSolid } from "react-icons/lia";
+
+
 
  const Services = () => {
     return (
@@ -8,14 +11,14 @@
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 place-items-center">
                     {/* image section */}
                         <div>
-                            <img src={BannerImg} alt="konik hehe" className="sm:scale-125 max-h-[300px] drop-shadow-md mx-auto"/>
+                            <img src={BannerImg} alt="konik hehe" className="sm:scale-105 max-h-[400px] drop-shadow-md mx-auto mr-7"/>
                         </div>
                     {/* text section */}
                     <div className="space-y-4">
                             {/* heading section */}
                         <div className="flex items-center gap-4">
                             <div className="text-primary text-7xl">
-                                <h1 className="font-bold">01</h1>
+                                <h1 className="font-bold text-8xl"><LiaCameraRetroSolid /></h1>
                             </div>
                             <div>
                                 <p className="text-primary">Zdjęcia</p>

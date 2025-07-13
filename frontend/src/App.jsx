@@ -4,6 +4,11 @@ import Hero from "./components/Hero/hero"
 import Services from "./components/Services/Services";
 import Services2 from "./components/Services/Services2";
 import Contact from "./components/Contact/contact";
+import Pricing from "./components/Pricing/Pricing";
+import Testimonial from "./components/Testimonial/Testimonial";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return(
@@ -14,6 +19,9 @@ const App = () => {
       <Services />
       <Services2 />
       <Services />
+      <Pricing />
+      {/* <Testimonial /> */}
+      <Footer />
     </div>
   )
 }

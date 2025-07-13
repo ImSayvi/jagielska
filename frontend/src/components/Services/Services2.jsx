@@ -32,7 +32,7 @@
                     </div>
                         {/* image section */}
                     <div>
-                        <img src={BannerImg2} alt="typiarka hehe" className="sm:scale-125 max-h-[300px] drop-shadow-md mx-auto"/>
+                        <img src={BannerImg2} alt="typiarka hehe" className="sm:scale-125 max-h-[400px] drop-shadow-md mx-auto"/>
                     </div>
                 </div>
             </div>
